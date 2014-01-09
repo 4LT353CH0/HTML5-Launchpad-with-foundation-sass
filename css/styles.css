@@ -374,10 +374,10 @@ body {
 
 body {
   background: white;
-  color: #222222;
+  color: #1b5eaf;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1464,7 +1464,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1484,8 +1484,8 @@ select {
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
-  background-color: #008cba;
-  border-color: #0078a0;
+  background-color: #1b5eaf;
+  border-color: #175197;
   color: white; }
   .alert-box .close {
     font-size: 1.375rem;
@@ -1506,25 +1506,25 @@ select {
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   .alert-box.success {
-    background-color: #43ac6a;
-    border-color: #3a945b;
+    background-color: #6e810d;
+    border-color: #5f6f0b;
     color: white; }
   .alert-box.alert {
-    background-color: #f04124;
-    border-color: #de2d0f;
+    background-color: #bf4040;
+    border-color: #a43737;
     color: white; }
   .alert-box.secondary {
-    background-color: #e7e7e7;
-    border-color: #c7c7c7;
-    color: #4f4f4f; }
+    background-color: #aabf40;
+    border-color: #92a437;
+    color: white; }
   .alert-box.warning {
-    background-color: #f08a24;
-    border-color: #de770f;
+    background-color: #eed31c;
+    border-color: #d5bc10;
     color: white; }
   .alert-box.info {
-    background-color: #a0d3e8;
-    border-color: #74bfdd;
-    color: #4f4f4f; }
+    background-color: #4083d4;
+    border-color: #2c70c2;
+    color: white; }
 
 [class*="block-grid-"] {
   display: block;
@@ -1874,8 +1874,8 @@ select {
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  background-color: #d9e2a9;
+  border-color: #ccd88b;
   -webkit-border-radius: 3px;
   border-radius: 3px; }
   .breadcrumbs > * {
@@ -1888,7 +1888,7 @@ select {
     .breadcrumbs > * a,
     .breadcrumbs > * span {
       text-transform: uppercase;
-      color: #008cba; }
+      color: #1b5eaf; }
     .breadcrumbs > *.current {
       cursor: default;
       color: #333333; }
@@ -1920,7 +1920,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1934,8 +1934,8 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #008cba;
-  border-color: #007095;
+  background-color: #1b5eaf;
+  border-color: #164b8c;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
@@ -1946,31 +1946,31 @@ button, .button {
   border: none;
   font-weight: normal !important; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #164b8c; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #e7e7e7;
-    border-color: #b9b9b9;
-    color: #333333; }
+    background-color: #aabf40;
+    border-color: #889933;
+    color: white; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #b9b9b9; }
+      background-color: #889933; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      color: #333333; }
+      color: white; }
   button.success, .button.success {
-    background-color: #43ac6a;
-    border-color: #368a55;
+    background-color: #6e810d;
+    border-color: #58670a;
     color: white; }
     button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-      background-color: #368a55; }
+      background-color: #58670a; }
     button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
       color: white; }
   button.alert, .button.alert {
-    background-color: #f04124;
-    border-color: #cf2a0e;
+    background-color: #bf4040;
+    border-color: #993333;
     color: white; }
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-      background-color: #cf2a0e; }
+      background-color: #993333; }
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
       color: white; }
   button.large, .button.large {
@@ -2011,61 +2011,61 @@ button, .button {
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008cba;
-    border-color: #007095;
+    background-color: #1b5eaf;
+    border-color: #164b8c;
     color: white;
     cursor: default;
     opacity: 0.7;
     -webkit-box-shadow: none;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: #164b8c; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008cba; }
+      background-color: #1b5eaf; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #e7e7e7;
-      border-color: #b9b9b9;
-      color: #333333;
+      background-color: #aabf40;
+      border-color: #889933;
+      color: white;
       cursor: default;
       opacity: 0.7;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #b9b9b9; }
+        background-color: #889933; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        color: #333333; }
+        color: white; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #e7e7e7; }
+        background-color: #aabf40; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
-      background-color: #43ac6a;
-      border-color: #368a55;
+      background-color: #6e810d;
+      border-color: #58670a;
       color: white;
       cursor: default;
       opacity: 0.7;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-        background-color: #368a55; }
+        background-color: #58670a; }
       button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
         color: white; }
       button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-        background-color: #43ac6a; }
+        background-color: #6e810d; }
     button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
-      background-color: #f04124;
-      border-color: #cf2a0e;
+      background-color: #bf4040;
+      border-color: #993333;
       color: white;
       cursor: default;
       opacity: 0.7;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-        background-color: #cf2a0e; }
+        background-color: #993333; }
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         color: white; }
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-        background-color: #f04124; }
+        background-color: #bf4040; }
 
 @media only screen and (min-width: 40.063em) {
   button, .button {
@@ -2865,7 +2865,7 @@ fieldset {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #f04124;
+  background: #bf4040;
   color: white; }
 [data-abide] span.error, [data-abide] small.error {
   display: none; }
@@ -2878,7 +2878,7 @@ span.error, small.error {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #f04124;
+  background: #bf4040;
   color: white; }
 
 .error input,
@@ -2887,7 +2887,7 @@ span.error, small.error {
   margin-bottom: 0; }
 .error label,
 .error label.error {
-  color: #f04124; }
+  color: #bf4040; }
 .error > small,
 .error small.error {
   display: block;
@@ -2897,7 +2897,7 @@ span.error, small.error {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #f04124;
+  background: #bf4040;
   color: white; }
 .error span.error-message {
   display: block; }
@@ -2907,7 +2907,7 @@ textarea.error {
   margin-bottom: 0; }
 
 label.error {
-  color: #f04124; }
+  color: #bf4040; }
 
 .inline-list {
   margin: 0 auto 1.0625rem auto;
@@ -3094,7 +3094,7 @@ kbd {
 
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3104,7 +3104,7 @@ kbd {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.375rem;
   font-size: 0.6875rem;
-  background-color: #008cba;
+  background-color: #1b5eaf;
   color: white; }
   .label.radius {
     -webkit-border-radius: 3px;
@@ -3113,14 +3113,14 @@ kbd {
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   .label.alert {
-    background-color: #f04124;
+    background-color: #bf4040;
     color: white; }
   .label.success {
-    background-color: #43ac6a;
+    background-color: #6e810d;
     color: white; }
   .label.secondary {
-    background-color: #e7e7e7;
-    color: #333333; }
+    background-color: #aabf40;
+    color: white; }
 
 [data-magellan-expedition] {
   background: white;
@@ -3401,12 +3401,12 @@ ul.pagination {
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
       background: transparent; }
     ul.pagination li.current a {
-      background: #008cba;
+      background: #1b5eaf;
       color: white;
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-        background: #008cba; }
+        background: #1b5eaf; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -3440,10 +3440,10 @@ ul.pagination {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #b6edff;
+    border-color: #c0d8f5;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #ecfaff; }
+    background: #eff5fd; }
     .panel.callout > :first-child {
       margin-top: 0; }
     .panel.callout > :last-child {
@@ -3456,7 +3456,7 @@ ul.pagination {
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
     .panel.callout a {
-      color: #008cba; }
+      color: #1b5eaf; }
   .panel.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
@@ -3476,7 +3476,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
@@ -3484,7 +3484,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
@@ -3515,19 +3515,19 @@ ul.pagination {
   padding: 0.125rem;
   margin-bottom: 0.625rem; }
   .progress .meter {
-    background: #008cba;
+    background: #1b5eaf;
     height: 100%;
     display: block; }
   .progress.secondary .meter {
-    background: #e7e7e7;
+    background: #aabf40;
     height: 100%;
     display: block; }
   .progress.success .meter {
-    background: #43ac6a;
+    background: #6e810d;
     height: 100%;
     display: block; }
   .progress.alert .meter {
-    background: #f04124;
+    background: #bf4040;
     height: 100%;
     display: block; }
   .progress.radius {
@@ -3614,17 +3614,17 @@ ul.pagination {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem; }
     .side-nav li a {
       display: block;
-      color: #008cba; }
+      color: #1b5eaf; }
     .side-nav li.active > a:first-child {
       color: #4d4d4d;
       font-weight: normal;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -3735,7 +3735,7 @@ ul.pagination {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -3754,7 +3754,7 @@ ul.pagination {
       -webkit-border-radius: 3px;
       border-radius: 3px;
       font-weight: normal;
-      background: #008cba;
+      background: #1b5eaf;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
@@ -3852,8 +3852,8 @@ div.switch {
     background: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: linear-gradient(to bottom, white 0%, #f2f2f2 100%);
-    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #f3faf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
-    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #f3faf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke; }
+    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #fafdeb, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
+    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #fafdeb, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke; }
   div.switch:hover span:last-child, div.switch:focus span:last-child {
     background: white;
     background: -moz-linear-gradient(top, white 0%, #e6e6e6 100%);
@@ -3971,7 +3971,7 @@ table {
       padding-right: 2rem;
       padding-bottom: 1.0625rem;
       padding-left: 2rem;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover {
         background: #e1e1e1; }
@@ -4040,8 +4040,8 @@ table {
   -moz-transition: all 200ms ease-out;
   transition: all 200ms ease-out; }
   .th:hover, .th:focus {
-    -webkit-box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
-    box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
+    -webkit-box-shadow: 0 0 6px 1px rgba(27, 94, 175, 0.5);
+    box-shadow: 0 0 6px 1px rgba(27, 94, 175, 0.5); }
   .th.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
@@ -4053,8 +4053,8 @@ table {
   font-weight: bold;
   color: #333333; }
   .has-tip:hover, .has-tip:focus {
-    border-bottom: dotted 1px #003f54;
-    color: #008cba; }
+    border-bottom: dotted 1px #0c2a4f;
+    color: #1b5eaf; }
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
 
@@ -4083,8 +4083,8 @@ table {
     border-color: transparent transparent #333333 transparent;
     top: -10px; }
   .tooltip.opened {
-    color: #008cba !important;
-    border-bottom: dotted 1px #003f54 !important; }
+    color: #1b5eaf !important;
+    border-bottom: dotted 1px #0c2a4f !important; }
 
 .tap-to-close {
   display: block;
@@ -4259,37 +4259,37 @@ meta.foundation-mq-topbar {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
     background: #333333; }
     .top-bar-section ul li > a.button {
-      background: #008cba;
+      background: #1b5eaf;
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px; }
       .top-bar-section ul li > a.button:hover {
-        background: #006688; }
+        background: #144580; }
     .top-bar-section ul li > a.button.secondary {
-      background: #e7e7e7; }
+      background: #aabf40; }
       .top-bar-section ul li > a.button.secondary:hover {
-        background: #cecece; }
+        background: #97aa39; }
     .top-bar-section ul li > a.button.success {
-      background: #43ac6a; }
+      background: #6e810d; }
       .top-bar-section ul li > a.button.success:hover {
-        background: #358854; }
+        background: #57660a; }
     .top-bar-section ul li > a.button.alert {
-      background: #f04124; }
+      background: #bf4040; }
       .top-bar-section ul li > a.button.alert:hover {
-        background: #d42b0f; }
+        background: #9d3434; }
   .top-bar-section ul li:hover > a {
     background: #272727;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #008cba;
+    background: #1b5eaf;
     color: white; }
     .top-bar-section ul li.active > a:hover {
-      background: #0078a0; }
+      background: #175197; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
@@ -4460,7 +4460,7 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: #1b5eaf;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block; } }
@@ -4489,11 +4489,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: #1b5eaf;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #175197; }
   a img {
     border: none; }
 
@@ -4515,7 +4515,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "font_regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #222222;
@@ -4578,7 +4578,7 @@ small {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: bold;
-  color: #bd260d; }
+  color: #8b2f2f; }
 
 /* Lists */
 ul,
@@ -4641,7 +4641,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #1b5eaf;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -6597,5 +6597,52 @@ th.hide-for-touch {
 .fi-zoom-out:before {
   content: "\f21a"; }
 
-.hello {
-  background: #000; }
+/*My Variables*/
+@font-face {
+  font-family: 'type_bold';
+  src: url("fonts/fonts/bitter-bold-webfont.eot");
+  src: url("fonts/fonts/bitter-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/fonts/bitter-bold-webfont.woff") format("woff"), url("fonts/fonts/bitter-bold-webfont.ttf") format("truetype"), url("fonts/fonts/bitter-bold-webfont.svg#bitterbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'type_italic';
+  src: url("fonts/fonts/bitter-italic-webfont.eot");
+  src: url("fonts/fonts/bitter-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/bitter-italic-webfont.woff") format("woff"), url("fonts/bitter-italic-webfont.ttf") format("truetype"), url("fonts/bitter-italic-webfont.svg#bitteritalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'type_regular';
+  src: url("fonts/bitter-regular-webfont.eot");
+  src: url("fonts/bitter-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/bitter-regular-webfont.woff") format("woff"), url("fonts/bitter-regular-webfont.ttf") format("truetype"), url("fonts/bitter-regular-webfont.svg#bitterregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'font_black';
+  src: url("fonts/din-black-webfont.eot");
+  src: url("fonts/din-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/din-black-webfont.woff") format("woff"), url("fonts/din-black-webfont.ttf") format("truetype"), url("fonts/din-black-webfont.svg#din_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'font_light';
+  src: url("fonts/din-light-webfont.eot");
+  src: url("fonts/din-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/din-light-webfont.woff") format("woff"), url("fonts/din-light-webfont.ttf") format("truetype"), url("fonts/din-light-webfont.svg#din_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'font_medium';
+  src: url("fonts/din-medium-webfont.eot");
+  src: url("fonts/din-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/din-medium-webfont.woff") format("woff"), url("fonts/din-medium-webfont.ttf") format("truetype"), url("fonts/din-medium-webfont.svg#dinmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'font_regular';
+  src: url("fonts/din-regular-webfont.eot");
+  src: url("fonts/din-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/din-regular-webfont.woff") format("woff"), url("fonts/din-regular-webfont.ttf") format("truetype"), url("fonts/din-regular-webfont.svg#dinregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
